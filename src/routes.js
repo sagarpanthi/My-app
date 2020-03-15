@@ -16,6 +16,12 @@ import ProductPageAdminComponent from "./components/ProductPageAdminComponent";
 *
 * */
 
+/*
+*
+* this.props.history.push(path, {'key': value)})
+*
+* */
+
 
 class Routes extends Component {
     constructor(props) {
