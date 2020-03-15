@@ -1,0 +1,181 @@
+/*
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.appLogo{
+  width: 40px !important;
+  margin: 10px 10px 10px 0px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hideHeaderMobile{
+  display: none;
+}
+.hideHeaderDesktop{
+  display: block;
+}
+
+.menuWrapper{
+  margin-top: 5px !important;
+}
+menulist{
+  padding: 0 10px;
+  line-height: 50px;
+  margin-right: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.menulist:hover{
+  color: #b71c1c !important;
+}
+.menulistMobile:hover{
+  color: #b71c1c !important;
+}
+.headerTitle{
+  color: #b71c1c !important;
+  font-family: 'Poppins', sans-serif !important;
+  text-transform: uppercase !important;
+  font-weight: 600 !important;
+}
+.menulist{
+  padding: 0 10px;
+  line-height: 50px;
+  margin-right: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+@media (max-width: 1366px) {
+  .hideHeaderMobile {
+    display: block;
+  }
+
+  .hideHeaderDesktop {
+    display: none;
+  }
+
+  .menuWrapper {
+    margin-top: 0px !important;
+  }
+
+  .headerTitle {
+    font-size: 10px;
+    position: absolute;
+    top: 16px;
+  }
+
+  .centered {
+    font-size: 35px;
+  }
+
+  .menulist {
+    font-size: 8px;
+  }
+
+  .appLogo {
+    width: 20px !important;
+    margin-top: 12px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .containerImage {
+    margin-top: 0px;
+  }
+
+  .hideHeaderMobile {
+    display: block;
+  }
+
+  .hideHeaderDesktop {
+    display: none;
+  }
+
+  .footerPadding {
+    padding-left: 37px !important;
+  }
+
+  .imageSizeArrow {
+    font-size: 25px !important;
+  }
+
+  .imageIndex {
+    font-size: 8px !important;
+    margin: 2px;
+  }
+}
+
